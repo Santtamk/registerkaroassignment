@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import OurServices from "./components/OurServices";
 import Blog from "./components/Blog";
+import ContactUs from "./components/ContactUs";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <OurServices />
       <Blog />
+        <ContactUs />
+      
     </>
   );
 }

@@ -50,7 +50,7 @@ const Navbar = () => {
                 title="Startup"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Startup
+                Our Services
               </a>
             </li>
             <li>
@@ -84,7 +84,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <ul className="flex items-center hidden space-x-8 lg:flex bg-amber-300 rounded-4xl">
+          <ul className="flex items-center hidden space-x-8 lg:flex bg-amber-300 rounded-4xl hover:bg-green-300">
             <li>
               <a
                 href="tel:+918447746183"
@@ -181,7 +181,7 @@ const Navbar = () => {
                           title="Startup"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Startup
+                          Our Services
                         </a>
                       </li>
                       <li>
@@ -218,7 +218,7 @@ const Navbar = () => {
                       <li>
                         <a
                           href="tel:+918447746183"
-                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none bg-orange-300 "
+                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide  text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none bg-orange-300 not-first:hover:bg-green-300"
                           aria-label="Sign up"
                           title="Sign up"
                         >
