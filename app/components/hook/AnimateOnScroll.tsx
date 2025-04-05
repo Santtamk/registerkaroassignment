@@ -14,7 +14,7 @@ type Options = {
 }
 
 
-const useElementOnScreen = (options: Options): [React.RefObject<HTMLDivElement>, boolean] => {
+const useElementOnScreen = (options: Options): [React.RefObject<HTMLDivElement | null>, boolean] => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState<boolean>(false);
 
