@@ -45,7 +45,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="#ourServices"
                 aria-label="Startup"
                 title="Startup"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -55,7 +55,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="#blog"
                 aria-label="Blog"
                 title="Blog"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -65,7 +65,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="#contactUs"
                 aria-label="Contact Us"
                 title="Contact Us"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -75,7 +75,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="#aboutUs"
                 aria-label="About us"
                 title="About us"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -84,7 +84,8 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <ul className="flex items-center hidden space-x-8 lg:flex bg-amber-300 rounded-4xl hover:bg-green-300">
+          <ul className="flex items-center hidden space-x-8 lg:flex bg-amber-300 rounded-4xl hover:bg-green-300 ">
+           
             <li>
               <a
                 href="tel:+918447746183"
